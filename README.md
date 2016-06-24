@@ -32,6 +32,14 @@ The side bar will display a facial expression icon depending on the content of t
 The program will track which results have been completed and output them in the sidebar if the game is continued (without refreshing the page)| Input: Try Again button clicked by player on "Shark Week" page | Output: You have seen 1 of 9 possible endings
 The program will play specific music tracks depending on the current page | Input: player clicks on Enter Your Name input field on the landing page | Output: dangerousLove music clip is played
 
+## Future Features
+
+HTML | CSS Styling | JavaScript
+----- | ----- | -----
+Add more storylines | Modify the icons on the sidebar to be uniform, and look like a video game | Refactor code to be less repetitive when displaying paths-possibly have just one button appear on every page and gather the placement in the storyline based off the radio buttons clicked
+Add more game items to modify story | Match the intro form background to the picture on the landing page | Track and list the titles of the ending pages completed instead of just the number
+----- | Add in better resolution pictures | Smooth out the audio transitions
+
 ## Support and Contact Details
 
 Contact Epicodus for support in running this program.
