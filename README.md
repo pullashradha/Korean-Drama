@@ -46,9 +46,7 @@ Contact Epicodus for support in running this program.
 
 ## Links
 
-Git Hub Webpage: https://brettnew.github.io/intro-group-project
-
-Git Hub Repository: https://github.com/brettnew/intro-group-project
+Git Hub Webpage: https://pullashradha.github.io/Korean-Drama
 
 ### License
 
