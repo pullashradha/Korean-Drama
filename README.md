@@ -1,14 +1,16 @@
-# Choose Your Own Drama Webpage
+# Korean Drama
 
 #### Intro Course Team Project for Epicodus, 06/24/2016
 
-#### By Brett New, Halle Williams, Alan Denison, Shradha Pulla
+#### By Brett New, Halle Williams, Alan Denison & Shradha Pulla
 
 ## Description
 
-This program is a choose-your-own-adventure style web game. The user will enter their name and other information to start. Players will navigate through a series of story points, and the program will decide what the ending will be based on the decisions made by the player. This program is inspired by Korean TV dramas.
+This program is a choose-your-own-adventure style web game. The user will enter their name and other information to start. Players will navigate through a series of story points, and the program will decide what the ending will be based on the decisions made by the player. This plot of this program is inspired by Korean TV dramas.
 
 ## Setup/Installation Requirements
+
+This program can only be accessed on computer with Git and Atom installed.
 
 * Clone this repository
 * Open index.html in Terminal
@@ -19,26 +21,26 @@ No known bugs.
 
 ## Specifications
 
-The program should handle: | Example Input | Example Output
+The program should ... | Example Input | Example Output
 ----- | ----- | -----
-The program will take the player's name entered in the beginning and display it in the story | Input: Player1 | Output: Player1
-The program will take the player's pet's name entered in the beginning and display it periodically in the story | Input: PetName | Output: PetName
-The program will output specific sentences in the story based on the pet selected at the start | Input: Dog | Output: "Media Frenzy" page adds the sentence "your dog barks enthusiastically at your side"
-The program will lead to another decision page depending on the radio button selected in the current decision page | Input: radio button 1, checked on "Journey Begins" page | Output: "Media Frenzy" page is shown
-The program will lead to different decision pages depending on the special item chosen on the "Journey Begins" page | Input: locket and radio button 2, checked on page "Time Warp" | Output: "Lock(et) Down the Dynasty" page is shown
-The program will lead to one result based on the radio button selected on the last decision page of the game | Input: radio button 2, checked on "Media Frenzy" page| Output: "Double Dead-End" page is shown
-The side bar will display the player's name, pet's name and a picture of the special item | ----- | -----
-The side bar will display a facial expression icon depending on the content of the page | ----- | -----
-The program will track which results have been completed and output them in the sidebar if the game is continued (without refreshing the page)| Input: Try Again button clicked by player on "Shark Week" page | Output: You have seen 1 of 9 possible endings
-The program will play specific music tracks depending on the current page | Input: player clicks on Enter Your Name input field on the landing page | Output: dangerousLove music clip is played
+Input the player's name and display it in the story | Enter Your Name: Jane | "Hi Jane!"
+Input the player's pet's name and display it periodically in the story | What's your pet's name: Charlotte | "Today you and Charlotte, your dog..."
+Output specific sentences in the story based on the pet selected at the start | Choose your pet: Dog | "Media Frenzy" page adds the sentence "your dog barks enthusiastically at your side"
+Lead to one result based on the radio button selected on the last decision page of the game | Input: radio button 2, checked on "Media Frenzy" page| Output: "Double Dead-End" result page is shown
+Lead to another decision page depending on the radio button selected in the current decision page | Input: radio button 1, checked on "Journey Begins" page | Output: "Media Frenzy" page is shown
+Lead to different decision pages depending on the special item chosen on the "Journey Begins" page | Input: locket and radio button 2, checked on page "Time Warp" | Output: "Lock(et) Down the Dynasty" result page is shown
+Display the player's name, pet's name and a picture of the special item on the side bar | --- | ---
+Display a facial expression icon depending on the content of the page, in the side bar | --- | ---
+Track what results have been completed and output them in the sidebar if the game is continued (without refreshing the page)| Try Again button clicked by player on "Shark Week" page | Sidebar: "You have seen 1 of 9 possible endings"
+Play specific music tracks depending on the current page | Player clicks on "Enter Your Name" input field on the landing page | dangerousLove music clip is played
 
 ## Future Features
 
 HTML | CSS | JavaScript
 ----- | ----- | -----
-Add more storylines | Modify the icons on the sidebar to be uniform, and look like a video game | Refactor code to be less repetitive when displaying paths-possibly have just one button appear on every page and gather the placement in the storyline based off the radio buttons clicked
+Add more storylines | Modify the icons on the sidebar to be uniform & look like a video game | Refactor code to be less repetitive when displaying paths-possibly have just one button appear on every page and gather the placement in the storyline based off the radio buttons clicked
 Add more game items to modify story | Match the intro form background to the picture on the landing page | Track and list the titles of the ending pages completed instead of just the number
------ | Add in better resolution pictures | Smooth out the audio transitions
+--- | Add in better resolution pictures | Smooth out the audio transitions
 
 ## Support and Contact Details
 
@@ -54,10 +56,10 @@ Contact Epicodus for support in running this program.
 
 ## Links
 
-Git Hub Webpage: https://pullashradha.github.io/Korean-Drama
+Git Hub Webpage: https://pullashradha.github.io/KoreanDrama
 
 ### License
 
 *This software is licensed under the GPL license.*
 
-Copyright (c) 2016 Brett New, Halle Williams, Alan Denison, Shradha Pulla
+Copyright (c) 2016 Brett New, Halle Williams, Alan Denison & Shradha Pulla
