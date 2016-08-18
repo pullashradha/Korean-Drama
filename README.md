@@ -21,7 +21,7 @@ No known bugs.
 
 ## Specifications
 
-The program should ... | Example Input | Example Output
+The program should... | Example Input | Example Output
 ----- | ----- | -----
 Input the player's name and display it in the story | Enter Your Name: Jane | "Hi Jane!"
 Input the player's pet's name and display it periodically in the story | What's your pet's name: Charlotte | "Today you and Charlotte, your dog..."
